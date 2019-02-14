@@ -30,4 +30,8 @@ When working on the code in the notebooks, creating this folder structure will h
 
 ## Yolo model
 
-The yolo model file is available at the Github [release page of OlafenwaMosel](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5). To run the code, put the model inside a folder `model` within the `src` folder.
+The yolo model file `yolo.h5` is available at the Github [release page of OlafenwaMosel](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5). To run the code, put the model inside a folder `model` within the `src` folder.
+
+## face detection model
+
+The face detection model can be downloaded from the [opencv repo](https://github.com/opencv/opencv/tree/master/samples/dnn/face_detector). Note, the `deploy.prototxt` can be downloaded as such. For the `res10_300x300_ssd_iter_140000_fp16.caffemodel` file, you need to run the `download_weights.py` file together which will require the `weights.meta4` file as well.
