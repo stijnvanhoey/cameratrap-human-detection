@@ -106,5 +106,8 @@ venv.bak/
 # exclude model code
 model/
 
+# exclude data folder
+data/
+
 # Exclude notebooks as risk of printed images!
 *.ipynb
