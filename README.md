@@ -27,6 +27,16 @@ When working on the code in the notebooks, creating this folder structure will h
     └── yolo_detecion.py
 ```
 
+## Python dependencies
+
+To run the code, the easiest way is to work with miniconda/anaconda and using the provide `environment.yml` file. To setup the Python environment, use:
+
+```
+conda env create -f environment.yml
+```
+
+which will setup the required packages to run the yolo based analysis. For the face detection, for the tryouts with other packages, just the link is provided to install it yourself with pip/conda.
+
 
 ## Yolo model
 
